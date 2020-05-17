@@ -148,10 +148,12 @@ game = True
 while game == True:
     try:
         dimensions = int(input("Please enter desired dimensions: "))
-        xy = int(input("Enter Chalenging no: "))
+        xy = 2**int(input("Enter power of 2 chalenging for you: "))     
     except (ValueError,NameError):
         dimensions = 4
         xy = 2048
+    print(f"Your Target is: {xy} ")
+    time.sleep(0.7)
     l = np.array([[0 for row in range(dimensions)] for col in range(dimensions)])
     stdscr = curses.initscr()
     wrapper(main,l,xy)
