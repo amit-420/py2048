@@ -1,6 +1,6 @@
 # python
 ## 2048 Game Description:
-  Game's aim is to reach certain target No. by moving numbers horizontally or vertically which adds same numbers in row or column 
+  Game's aim is to reach certain target No. by moving numbers horizontally or vertically which adds arithmaiticaly same adjacent numbers in row or column. 
 
 ### Installing guide for Ubantu OS:
 1) Clone this repository on your device
