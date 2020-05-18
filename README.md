@@ -48,6 +48,6 @@ Here is an explanation of one of the function:
 #### There are three cases to look:
 ##### Case 1:
   It is 1st if condition
-  ![](Gifs/case1.mp4)
+  ![](Gifs/case1.gif)
   
     
