@@ -23,7 +23,8 @@
 1) If you don't enter Dimensions or Target, default Dimensions and Target are 4 and 2048 respectively.
 2) After every move 2 will be added to board at random position.
 3) If any other keys except arrow and wasd keys are used game will stopped for around a second and you will loose one move.
-
+4) If your Target and Dimensions are Default values i.e, 2048, 4 respectively; Game will continue forward after winning until you're uot of moves.
+ 
 ### Codes Explaination:
 Moving numbers algorithem is most important part of this game and also most complicated:
 Here is an explanation of one of the function:
@@ -50,6 +51,7 @@ Here is an explanation of one of the function:
      return l`
 #### There are three cases to look:
 ##### Case 1:
-  It is 1st if condition, function looks at 
+  It is 1st if condition
+  ![](Gifs/case1.gif)
   
     
