@@ -50,8 +50,18 @@ Here is an explanation of one of the function:
                  y += 1        
      return l`
 #### There are three cases to look:
+Basically function at an instance holds to an element and then moves to adjacent elements comparing according two given three cases:
+
 ##### Case 1:
-  It is 1st if condition
+  1st if condition
   ![](Gifs/case1.gif)
+
+##### Case 2:
+  2nd elif condition
+  ![](Gifs/case2.gif)
   
+##### Case 3:
+  3rd elif condition
+  ![](Gifs/case3.gif)
+
     
