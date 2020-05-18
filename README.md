@@ -1,6 +1,6 @@
 # python
 ## 2048 Game Description:
-  Game's aim is to reach certain target No. by moving numbers horizontally or vertically which adds arithmaiticaly same adjacent numbers in row or column. 
+  Game's aim is to reach certain target No. by moving numbers horizontally or vertically which adds arithmetically same adjacent numbers in row or column. 
 
 ### Installing guide for Ubantu OS:
 1) Clone this repository on your device
@@ -16,6 +16,6 @@
 5) After game is complete enter any key to continue further.
 
 ### Rules to know:
-1) If you don't enter dimensions or Target default dimensions and Target is 4 and 2048.
+1) If you don't enter Dimensions or Target, default Dimensions and Target are 4 and 2048 respectively.
 2) After every move 2 will be added to board at random position.
-3) If any other keys except arrow and wasd keys are used game will stopped for 1 second and you will loose one move.
+3) If any other keys except arrow and wasd keys are used game will stopped for around a second and you will loose one move.
