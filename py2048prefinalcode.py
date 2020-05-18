@@ -3,7 +3,7 @@ from curses import wrapper
 import numpy as np
 import random as rdm
 import time
-
+### Functions to be used ####
 def spidy(l):
     random_list = []
     x = 0
@@ -95,7 +95,9 @@ def verti_move_down(l):
 def verti_move_up(l):
     l = hori_move_left(l.transpose()).transpose()
     return l
+######____________________#############
 
+###### wrapper function starts here ########
 def main(stdscr,l,xy):
     
     stdscr.clear()
@@ -109,6 +111,7 @@ def main(stdscr,l,xy):
         except curses.error:
             text1 = "Please increase terminal height "
             print_string(stdscr,text1)
+            time.sleep(2)
 
     def print_string(stdscr,text):
         stdscr.clear()
@@ -135,15 +138,18 @@ def main(stdscr,l,xy):
             verti_move_up(l)
         else:
             print_string(stdscr,"Use either arrow keys or wasd keys")
-            time.sleep(1)  
+            time.sleep(0.7)  
         win,text = end_decider(l,xy)
         print_string(stdscr,text)
+    
     stdscr.clear()
     print_string(stdscr,text)
     print_board(l)
     stdscr.refresh()
     stdscr.getkey()
+####### wrapper function ends here #############
 
+######## Everything starts here ############ 
 game = True
 while game == True:
     try:
@@ -153,7 +159,7 @@ while game == True:
         dimensions = 4
         xy = 2048
     print(f"Your Target is: {xy} ")
-    time.sleep(0.7)
+    time.sleep(1)
     l = np.array([[0 for row in range(dimensions)] for col in range(dimensions)])
     stdscr = curses.initscr()
     wrapper(main,l,xy)
@@ -168,4 +174,4 @@ while game == True:
         print("Not a GOOD input bye. o(一︿一+)o")
         game = False
         break
-
+########## Everything ends here ###########
