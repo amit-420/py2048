@@ -1,6 +1,4 @@
-# python
-
-## 2048 Game Description:
+# 2048 Game Description:
 
   Game's aim is to reach certain target No. by moving numbers horizontally or vertically which adds arithmetically same adjacent numbers in row or column. 
 
