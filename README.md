@@ -53,15 +53,20 @@ Here is an explanation of one of the function:
 Basically function at an instance holds to an element and then moves to adjacent elements comparing according two given three cases:
 
 ##### Case 1:
-  1st if condition
+  1st if condition does the job of moving elements across zeros.
+  
   ![](Gifs/case1.gif)
 
 ##### Case 2:
-  2nd elif condition
+  
+  2nd elif condition is only for adding same numbers.
+  
   ![](Gifs/case2.gif)
   
 ##### Case 3:
-  3rd elif condition
+  
+  3rd elif condition make sure that function stops at next number greater than zero.
+  
   ![](Gifs/case3.gif)
 
     
