@@ -1,13 +1,17 @@
 # python
+
 ## 2048 Game Description:
+
   Game's aim is to reach certain target No. by moving numbers horizontally or vertically which adds arithmetically same adjacent numbers in row or column. 
 
 ### Installing guide for Ubantu OS:
+
 1) Clone this repository on your device
 2) Install all dependencies using `pip install -r requirments.txt`
 3) Run file using `python3 py2048.py`
 
 ### How-To:
+
 1) Run file using `python3 py2048.py` or `python py2048.py` depending on your system conditions.
 2) Enter dimensions of game you want to play.
 3) Next enter Target you want to reach as power of 2, 
